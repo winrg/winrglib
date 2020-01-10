@@ -18,7 +18,7 @@ stdscr.timeout(42)
 
 x = 1
 y = 1
-options = [['upgrade 1', 10, 490, 'get1'], 'upgrade 2', 'upgrade 3', 'prestige']
+options = [['upgrade 1', '10', 490, 'get1'], ['upgrade 2', '20', 500, 'get2'], ['upgrade 3', '30', 510, 'get3'], ['prestige', '100']]
 costs = [10,20,30,100]
 outputs = ['get1', 'get2', 'get3' 'getp']
 maxheight = 20

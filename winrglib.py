@@ -1,6 +1,6 @@
 ######################################################
 #                                                    #
-#            winrg function library 1.0.1            #
+#            winrg function library 1.1.0            #
 #                    Jan. 2020                       #
 #             Do with this as you please             #
 #                                                    #

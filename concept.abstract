@@ -1,0 +1,93 @@
+unfilled:
+
++-Settings---------+
+|Upgrade 1      100|
+|^   Press  '1'   ^|
+|                  |
+|                  |
+|                  |
++------------------+
+
+Filled:
+
+lines are
+upgrade 1   100  1
+upgrade 2   200  2
+upgrade 3   300  3
+prestige    500  p
+
+Scroll = 0
++------------------+
+|Upgrade 1      100|v
+|^   Press  '1'   ^|v
+|Upgrade 2      200||
+|^   Press  '2'   ^|v
+|Upgrade 3      200|v
++------------------+
+
+Scroll = 1
++------------------+
+|^   Press  '1'   ^|^
+|Upgrade 2      200|v
+|^   Press  '2'   ^||
+|Upgrade 3      200|v
+|^   Press  '3'   ^|v
++------------------+
+
+Scroll = 2
++------------------+
+|Upgrade 2      200|^
+|^   Press  '2'   ^|^
+|Upgrade 3      200||
+|^   Press  '3'   ^|^
+|Prestige       500|v
++------------------+
+
+Scroll = 3
++------------------+
+|^   Press  '2'   ^|^
+|Upgrade 3      200|^
+|^   Press  '3'   ^||
+|Prestige       500|^
+|^   Press  'p'   ^|^
++------------------+
+
+min scroll is 0
+max scroll is number of lines - useheight (3 in this case)
+
+Scroll bars:
+^^^^v
+^v^^v
+|||||
+vv^^v
+vvv^v
+
+^
+^
+|
+v
+v   Used when there is no proximity to any end
+
+v
+v
+|
+v
+v   Used when you are at the top
+
+^
+^
+|
+^
+^   Used when you are at the bottom
+
+^
+v
+|
+v
+v   Used when you are one away from the top
+
+^
+^
+|
+^
+v   Used when you are one away from the bottom

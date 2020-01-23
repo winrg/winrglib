@@ -1,0 +1,23 @@
+define a menu class
+give it attributes lines(derrived from a list of options)(list), dims(tuple), exit key(int), title(str), visible(bool), pos(tuple)
+  each line has a selection key
+  lines are in format
+
+
+  <---------------->   <--- Width
+  |prestige     500|
+  |^  Press  'p'  ^|
+
+define a function with boolean options freeze, killall, loadnew, showvisible
+
+  when loadnew is true:
+   scan all objects for any 'menu' objects
+   add them to a list
+  when everything(ignoring loadnew) is False but for showvisible:
+    get all known menus
+    starting from the first menu:
+      draw '+' + '-' * width / 2 + '+' (+-------------+)
+      get the number of lines
+      if it is larger than the height:
+        reverse the line order, make the counter start at however far the menu is scrolled, add each line until you reach the height to a list
+        reverse both lists and perform the usual draw routine on the new list

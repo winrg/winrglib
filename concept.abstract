@@ -1,6 +1,6 @@
 unfilled:
 
-+-Settings---------+
++-Upgrades---------+
 |Upgrade 1      100|
 |^   Press  '1'   ^|
 |                  |
@@ -17,7 +17,7 @@ upgrade 3   300  3
 prestige    500  p
 
 Scroll = 0
-+------------------+
++-Upgrades---------+
 |Upgrade 1      100|v
 |^   Press  '1'   ^|v
 |Upgrade 2      200||
@@ -26,7 +26,7 @@ Scroll = 0
 +------------------+
 
 Scroll = 1
-+------------------+
++-Upgrades---------+
 |^   Press  '1'   ^|^
 |Upgrade 2      200|v
 |^   Press  '2'   ^||
@@ -35,7 +35,7 @@ Scroll = 1
 +------------------+
 
 Scroll = 2
-+------------------+
++-Upgrades---------+
 |Upgrade 2      200|^
 |^   Press  '2'   ^|^
 |Upgrade 3      200||
@@ -44,7 +44,7 @@ Scroll = 2
 +------------------+
 
 Scroll = 3
-+------------------+
++-Upgrades---------+
 |^   Press  '2'   ^|^
 |Upgrade 3      200|^
 |^   Press  '3'   ^||
